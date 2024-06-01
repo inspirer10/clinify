@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from './Components/Header';
+import Introduction from './Components/Introduction';
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
                 <link rel='icon' href='/icon.png' />
             </Head>
             <Header />
+            <Introduction />
         </>
     );
 }

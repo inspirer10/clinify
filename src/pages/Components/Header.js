@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <nav>
-                <p>clinify</p>
+                <p className='header__logo'>clinify</p>
 
                 <ul>
                     <li>Features</li>
@@ -13,9 +13,9 @@ function Header() {
                     <li>FAQ</li>
                 </ul>
 
-                <div>
-                    <button>Log in</button>
-                    <button>Join for free</button>
+                <div className='header__buttons-wrapper'>
+                    <button className='button-login'>Log in</button>
+                    <button className='button-join'>Join for free</button>
                 </div>
             </nav>
         </header>
