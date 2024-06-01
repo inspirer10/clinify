@@ -42,6 +42,19 @@ function Introduction() {
                 </div>
                 <p>Join 1k+ doctors today </p>
             </div>
+
+            <p className='trustedHeader'>
+                Trusted by the world's most innovative teams
+            </p>
+
+            <div className='logos-container'>
+                <img className='logo-thumbnail' src='/logo1.png' alt='logo' />
+                <img className='logo-thumbnail' src='/logo2.png' alt='logo' />
+                <img className='logo-thumbnail' src='/logo3.png' alt='logo' />
+                <img className='logo-thumbnail' src='/logo4.png' alt='logo' />
+                <img className='logo-thumbnail' src='/logo6.png' alt='logo' />
+                <img className='logo-thumbnail' src='/logo5.png' alt='logo' />
+            </div>
         </section>
     );
 }

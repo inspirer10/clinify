@@ -7,8 +7,8 @@ function Header() {
                 <p className='header__logo'>clinify</p>
 
                 <ul>
-                    <li>Features</li>
                     <li>How it works</li>
+                    <li>Features</li>
                     <li>Pricing</li>
                     <li>FAQ</li>
                 </ul>

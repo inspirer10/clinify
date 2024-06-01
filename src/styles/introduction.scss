@@ -24,6 +24,7 @@
         display: flex;
         align-items: center;
         margin: 3rem auto 0;
+        user-select: none;
         cursor: pointer;
         transition: .175s ease-in-out;
         .arrow-icon {
@@ -57,6 +58,30 @@
             color: rgb(130, 130, 130);
             font-size: 1.15rem;
             font-weight: 500;
+        }
+    }
+    .trustedHeader {
+        color: rgb(130, 130, 130);
+        font-size: 1.15rem;
+        margin-top: 5rem;
+    }
+    .logos-container {
+        display: flex;
+        width: 75%;
+        margin: 1.75rem auto 5rem;
+        justify-content: space-between;
+        align-items: center;
+        .logo-thumbnail {
+            width: calc(100%/12);
+            height: 100px;
+            height: auto;
+            object-fit: contain;
+            user-select: none;
+            filter: grayscale(100%);
+            transition: .16s ease-in-out;
+            &:hover {
+                filter: grayscale(0%);
+            }
         }
     }
 }
