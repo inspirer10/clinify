@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from './Components/Header';
 import Introduction from './Components/Introduction';
 import About from './Components/About';
+import Pricing from './Components/Pricing';
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
             <Header />
             <Introduction />
             <About />
+            <Pricing />
         </>
     );
 }
