@@ -1,0 +1,33 @@
+.doctorsRecomendations__section {
+    text-align: center;
+    text-align: center;
+    margin: 20vh auto;
+    .doctorsRecomendations-heading {
+        font-size: 3.8rem;
+        letter-spacing: -0.5px;
+        font-weight: 600;
+        line-height: calc(1.45 * 3rem);
+        color: rgb(15, 15, 15);
+    }
+    .doctorsRecomendations-description {
+        width: 40%;
+        color: rgb(140, 140, 140);
+        font-size: 1.275rem;
+        font-weight: 500;
+        margin: 1.5rem auto;
+        line-height: calc(1.5 * 1.3rem);
+    }
+    .recomendations-container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        .doctor-recomendation {
+            background-image: linear-gradient(to left bottom, #d4ffeb, #d8fff6, #e1fffd, #ecfeff, #f7fdff, #fafdff, #fdfeff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+            width: calc(90% / 3);
+            height: auto;
+            border-radius: 18px;
+        }
+    }
+}

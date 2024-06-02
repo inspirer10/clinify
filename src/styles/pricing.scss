@@ -1,8 +1,8 @@
 .pricing__section {
     text-align: center;
     text-align: center;
+    margin: 15vh auto;
     .pricing-heading {
-        margin: 10vh auto 0;
         font-size: 3.8rem;
         letter-spacing: -0.5px;
         font-weight: 600;
@@ -11,10 +11,101 @@
     }
     .pricing_heading-description {
         width: 40%;
-        color: rgb(150, 150, 150);
+        color: rgb(140, 140, 140);
         font-size: 1.275rem;
         font-weight: 500;
         margin: 1.5rem auto;
         line-height: calc(1.5 * 1.3rem);
+    }
+    .subscriptions__container {
+        width: 80%;
+        margin: 10vh auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        .subscription-box {
+            width: calc(90% / 4);
+            border: 1px solid rgb(215, 215, 215);
+            background-image: linear-gradient(to right bottom, #e6e6e6, #e9e9e9, #ebebeb, #eeeeee, #f1f1f1, #f1f1f1, #f1f1f1, #f1f1f1, #eeeeee, #ebebeb, #e9e9e9, #e6e6e6);
+            border-radius: 18px;
+            //!!! BORDER BOTTOM
+            border-bottom: none;
+            padding: 1.5rem 1.25rem;
+            min-height: 60vh;
+            .subsc-type {
+                font-size: 1.3rem;
+                font-weight: 500;
+                letter-spacing: -0.4px;
+            }
+            .subsc-price {
+                margin: 1.1rem 0 0.6rem;
+                font-weight: 600;
+                font-size: 1.9rem;
+                letter-spacing: -0.3px;
+                font-family: 'Open Sans', sans-serif;
+                span {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: rgb(135, 135, 135);
+                }
+            }
+            .subsc-description {
+                color: rgb(125, 125, 125);
+                font-weight: 400;
+                font-size: 18px;
+            }
+            button {
+                background-color: #fff;
+                font-weight: 500;
+                font-size: 15px;
+                border: none;
+                padding: 0.85rem 1.5rem;
+                margin: 1.5rem auto;
+                width: 80%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 40px;
+                outline: none;
+                user-select: none;
+                cursor: pointer;
+                transition: .2s ease-in-out;
+                box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+                box-shadow: rgb(0, 0, 0) 0px 5px 18px -10px;
+                &:hover {
+                    background-color: #cbffe7;
+                    border-color: #000;
+                }
+                &.highlighted-button {
+                    border-color: #000;
+                    background-color: #000;
+                    color: #fff;
+                    &:hover {
+                        background-color: #1d1d1d;
+                    }
+                }
+            }
+            .list {
+                border-top: 1px solid rgb(190, 190, 190);
+                padding-top: 1.5rem;
+                margin: 2.5rem auto;
+                font-size: 1.1rem;
+                color: rgb(125, 125, 125);
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 0.175rem;
+                    line-height: calc(1.5 * 1.15rem);
+                    .icon {
+                        color: #000;
+                        margin-right: 0.55rem;
+                    }
+                }
+            }
+            &:nth-of-type(2) {
+                background-image: linear-gradient(to right bottom, #d4ffeb, #d8fff6, #e1fffd, #ecfeff, #f7fdff, #f7fdff, #f7fdff, #f7fdff, #ecfeff, #e1fffd, #d8fff6, #d4ffeb);
+            }
+        }
     }
 }

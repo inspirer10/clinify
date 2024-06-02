@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Introduction from './Components/Introduction';
 import About from './Components/About';
 import Pricing from './Components/Pricing';
+import DoctorsRecomendations from './Components/DoctorsRecomendations';
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
             <Introduction />
             <About />
             <Pricing />
+            <DoctorsRecomendations />
         </>
     );
 }
