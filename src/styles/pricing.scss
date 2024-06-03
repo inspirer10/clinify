@@ -110,3 +110,12 @@
         }
     }
 }
+
+@media (max-width: 1450px) {
+    .pricing__section .subscriptions__container {
+        width: 85%;
+        .subscription-box {
+            width: 24%;
+        }
+    }
+}

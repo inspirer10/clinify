@@ -64,3 +64,12 @@
         }
     }
 }
+
+@media (max-width: 1450px) {
+    .doctorsRecomendations__section .recomendations-container {
+        width: 80%;
+        .doctor-recomendation {
+            width: calc(92.5% / 3);
+        }
+    }
+}

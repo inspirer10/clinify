@@ -114,3 +114,10 @@
         }
     }
 }
+
+@media (max-width: 1450px) {
+    .about__section .steps_heading {
+        width: 72.5%;
+        font-size: 3.25rem;
+    }
+}
