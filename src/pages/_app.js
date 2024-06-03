@@ -4,6 +4,8 @@ import '@/styles/introduction.scss';
 import '@/styles/about.scss';
 import '@/styles/pricing.scss';
 import '@/styles/doctorsRecomendations.scss';
+import '@/styles/faq.scss';
+import '@/styles/footer.scss';
 
 export default function App({ Component, pageProps }) {
     return <Component {...pageProps} />;

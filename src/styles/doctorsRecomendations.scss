@@ -1,7 +1,6 @@
 .doctorsRecomendations__section {
     text-align: center;
-    text-align: center;
-    margin: 20vh auto;
+    margin: 15vh auto;
     .doctorsRecomendations-heading {
         font-size: 3.8rem;
         letter-spacing: -0.5px;
@@ -18,16 +17,50 @@
         line-height: calc(1.5 * 1.3rem);
     }
     .recomendations-container {
-        width: 80%;
+        width: 72.5%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
+        flex-wrap: wrap;
         .doctor-recomendation {
+            text-align: left;
             background-image: linear-gradient(to left bottom, #d4ffeb, #d8fff6, #e1fffd, #ecfeff, #f7fdff, #fafdff, #fdfeff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
             width: calc(90% / 3);
             height: auto;
             border-radius: 18px;
+            padding: 0.5rem 2.25rem 2.5rem;
+            margin-top: 2.5rem;
+            .recomendation-heading {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin: 1rem 0;
+                .doctor-thumbnail {
+                    border: 2px solid #81ffc4;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+                .heading-text {
+                    margin-left: 1rem;
+                    .doctor-name {
+                        font-weight: 500;
+                        font-size: 1.1rem;
+                    }
+                    .doctor-role {
+                        color: rgb(150, 150, 150);
+                    }
+                }
+            }
+            .recomendation-text {
+                font-size: 1.175rem;
+                line-height: calc(1.5 * 1.2rem);
+                margin-top: 2.5rem;
+                padding: 0 0.25rem;
+            }
         }
     }
 }

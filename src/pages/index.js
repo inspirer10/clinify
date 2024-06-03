@@ -4,6 +4,8 @@ import Introduction from './Components/Introduction';
 import About from './Components/About';
 import Pricing from './Components/Pricing';
 import DoctorsRecomendations from './Components/DoctorsRecomendations';
+import FAQ from './Components/FAQ';
+import Footer from './Components/Footer';
 
 export default function Home() {
     return (
@@ -25,6 +27,8 @@ export default function Home() {
             <About />
             <Pricing />
             <DoctorsRecomendations />
+            <FAQ />
+            <Footer />
         </>
     );
 }
