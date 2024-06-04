@@ -1,6 +1,6 @@
 footer {
     text-align: center;
-    margin: 7.5vh auto;
+    margin: 7.5vh auto 0;
     .footer-heading {
         width: 45%;
         margin: 1.5rem auto 3.5rem;
@@ -55,6 +55,61 @@ footer {
             color: rgb(130, 130, 130);
             font-size: 1.15rem;
             font-weight: 500;
+        }
+    }
+    .footer-main {
+        background-color: #fff;
+        margin: 10vh auto 0;
+        padding: 10vh 0 7.5vh;
+        .footer-inner-container {
+            display: flex;
+            justify-content: space-between;
+            width: 75%;
+            margin: 0 auto;
+            .footer-logo {
+                text-align: left;
+                font-weight: 700;
+                font-size: 1.6rem;
+                letter-spacing: -0.45px;
+            }
+            .footer-copyright {
+                margin-top: 1.25rem;
+                text-align: left;
+                color: rgb(140, 140, 140);
+            }
+            div {
+                width: 50%;
+            }
+            .footer-references-container {
+                color: rgb(75, 75, 75);
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                .references-wrapper {
+                    text-align: left;
+                    span {
+                        display: block;
+                        margin-bottom: 1.5rem;
+                        color: rgb(160, 160, 160);
+                    }
+                    ul li {
+                        font-size: 18px;
+                        margin: 0.75rem 0;
+                        line-height: calc(1.25 * 18px);
+                    }
+                }
+                .icons .icon {
+                    color: rgb(70, 70, 70);
+                    font-size: 1.4rem;
+                    margin: 0 0.85rem;
+                    transition: .225s ease;
+                    cursor: pointer;
+                    &:hover {
+                        color: rgb(15, 15, 15);
+                    }
+                }
+            }
         }
     }
 }
