@@ -24,7 +24,7 @@
                 font-size: 17px;
                 font-weight: 600;
                 color: #202020;
-                background-color: rgb(230, 230, 230);
+                background-color: rgb(238, 238, 238);
                 padding: 10.5px;
                 border-radius: 6px;
                 transition: 0.25s ease;
@@ -38,12 +38,13 @@
                 }
             }
             .faq-answer {
-                text-align: left;
+                margin: 0.25rem auto;
+                text-align: justify;
                 padding: 12px;
-                font-size: 16px;
+                font-size: 17px;
                 color: #555;
                 transition: max-height 0.3s ease;
-                line-height: calc(1.35 * 15px);
+                line-height: calc(1.4 * 17px);
                 overflow: hidden;
             }
             .faq-question#opened {

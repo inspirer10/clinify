@@ -82,7 +82,6 @@ function About() {
             <article className='steps-container'>
                 <aside className='steps-wrapper'>
                     <div className='steps-item'>
-                        <span>1</span>
                         <h5>Voice to Note</h5>
                         <p>
                             Just speak. Clinify listens, recording your
@@ -91,7 +90,6 @@ function About() {
                         </p>
                     </div>
                     <div className='steps-item'>
-                        <span>2</span>
                         <h5>Smart Customization</h5>
                         <p>
                             Edit and tailor with Clinify's AI-driven notes
@@ -100,7 +98,6 @@ function About() {
                         </p>
                     </div>
                     <div className='steps-item'>
-                        <span>3</span>
                         <h5>Access and Sharing</h5>
                         <p>
                             Instantly review and integrate comprehensive notes

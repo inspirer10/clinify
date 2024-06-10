@@ -6,6 +6,7 @@ import Pricing from './Components/Pricing';
 import DoctorsRecomendations from './Components/DoctorsRecomendations';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
+import Tiles from './Components/Tiles';
 
 export default function Home() {
     return (
@@ -25,6 +26,7 @@ export default function Home() {
             <Header />
             <Introduction />
             <About />
+            <Tiles />
             <Pricing />
             <DoctorsRecomendations />
             <FAQ />

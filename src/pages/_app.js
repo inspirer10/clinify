@@ -6,6 +6,7 @@ import '@/styles/pricing.scss';
 import '@/styles/doctorsRecomendations.scss';
 import '@/styles/faq.scss';
 import '@/styles/footer.scss';
+import '@/styles/tiles.scss';
 
 export default function App({ Component, pageProps }) {
     return <Component {...pageProps} />;

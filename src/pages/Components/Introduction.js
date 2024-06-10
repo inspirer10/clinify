@@ -43,6 +43,12 @@ function Introduction() {
                 <p>Join 1k+ doctors today </p>
             </div>
 
+            <img
+                className='introduction-placeholder'
+                src='placeholder1.png'
+                alt='dashboard placeholder'
+            />
+
             <p className='trustedHeader'>
                 Trusted by the world's most innovative teams
             </p>
