@@ -127,11 +127,16 @@ footer {
     }
 }
 
-@media (max-width: 1450px) {
+@media screen and (max-width: 1500px) {
     footer {
+        .footer-main {
+            .footer-inner-container {
+                width: 82.5%;
+            }
+        }
         .footer-heading {
-            margin-top: 1.75rem;
-            font-size: 3.7rem;
+            margin-top: 7.5vh;
+            font-size: 3.75rem;
             width: 62.5%;
         }
     }

@@ -99,3 +99,17 @@
         }
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .introduction__section {
+        h1 {
+            font-size: 5rem;
+        }
+        .introduction-description {
+            font-size: 1.4rem;
+        }
+        .introduction-placeholder {
+            width: 62.5%;
+        }
+    }
+}

@@ -104,3 +104,35 @@
         }
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .tiles__section {
+        width: 85%;
+        .tiles__container {
+            aside .tile {
+                width: 97.5%;
+                h5,
+                p {
+                    text-align: center;
+                }
+            }
+            .center-tile {
+                height: 70vh;
+                img {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .tiles__section {
+        width: 90%;
+        .tiles__container {
+            .center-tile {
+                height: 77.5vh;
+            }
+        }
+    }
+}

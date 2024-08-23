@@ -109,9 +109,27 @@
     }
 }
 
-@media (max-width: 1450px) {
+@media screen and (max-width: 1500px) {
+    .about__section {
+        .about_heading {
+            width: 60%;
+            font-size: 3.35rem;
+            line-height: 3.9rem;
+        }
+        .abt-wrapper {
+            width: 82.5%;
+            .abt-item {
+                width: 32%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .about__section .about_heading {
+        width: 70%;
+    }
     .about__section .steps_heading {
-        width: 72.5%;
-        font-size: 3.25rem;
+        width: 85%;
     }
 }

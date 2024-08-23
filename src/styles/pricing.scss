@@ -110,11 +110,28 @@
     }
 }
 
-@media (max-width: 1450px) {
-    .pricing__section .subscriptions__container {
-        width: 85%;
-        .subscription-box {
-            width: 24%;
+@media screen and (max-width: 1500px) {
+    .pricing__section {
+        .pricing_heading-description {
+            width: 47.5%;
         }
+        .subscriptions__container {
+            width: 90%;
+            .subscription-box {
+                width: 24%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .pricing__section .subscriptions__container .subscription-box {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .pricing__section .subscriptions__container {
+        width: 95%;
     }
 }

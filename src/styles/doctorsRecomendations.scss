@@ -70,9 +70,15 @@
 
 @media (max-width: 1450px) {
     .doctorsRecomendations__section .recomendations-container {
-        width: 80%;
+        width: 85%;
         .doctor-recomendation {
             width: calc(92.5% / 3);
         }
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .doctorsRecomendations__section .doctorsRecomendations-description {
+        width: 50%;
     }
 }

@@ -54,3 +54,15 @@
         }
     }
 }
+
+@media screen and (max-width: 1370px) {
+    .FAQ_section .faq {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .FAQ_section .faq {
+        width: 42.5%;
+    }
+}
