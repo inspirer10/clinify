@@ -7,12 +7,24 @@ import DoctorsRecomendations from './Components/DoctorsRecomendations';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
 import Tiles from './Components/Tiles';
+import { useEffect } from 'react';
+import Lenis from 'lenis';
 
 export default function Home() {
+    useEffect(() => {
+        const lenis = new Lenis();
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+    }, []);
+
     return (
         <>
             <Head>
-                <title>Clinify</title>
+                <title>CLINIFY - Clinical Notes</title>
                 <meta
                     name='description'
                     content='Clinify - Clinical notes made easy'

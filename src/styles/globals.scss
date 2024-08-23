@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
+    scrollbar-width: thin;
 }
 
 html,
@@ -13,7 +14,7 @@ body {
 }
 
 body {
-    background-color: rgb(212, 255, 235);
+    background-color: rgb(210, 255, 235);
     background-image: linear-gradient(to right, #d4ffeb, #d8fff6, #e1fffd, #ecfeff, #f7fdff, #f7fdff, #f7fdff, #f7fdff, #ecfeff, #e1fffd, #d8fff6, #d4ffeb);
 }
 
@@ -24,4 +25,8 @@ a {
 
 ul {
     list-style: none;
+}
+
+img {
+    user-select: none;
 }

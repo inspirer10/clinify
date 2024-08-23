@@ -1,6 +1,6 @@
 footer {
     text-align: center;
-    margin: 7.5vh auto 0;
+    margin: 5vh auto 0;
     .footer-heading {
         width: 45%;
         margin: 1.5rem auto 3.5rem;
@@ -67,30 +67,30 @@ footer {
     .footer-main {
         background-color: #fff;
         margin: 10vh auto 0;
-        padding: 10vh 0 7.5vh;
+        padding: 7.5vh 0 4vh;
         .footer-inner-container {
             display: flex;
             justify-content: space-between;
-            width: 75%;
+            width: 77.5%;
             margin: 0 auto;
             .footer-logo {
                 text-align: left;
                 font-weight: 700;
-                font-size: 1.6rem;
+                font-size: 1.75rem;
                 letter-spacing: -0.45px;
             }
             .footer-copyright {
-                font-size: 0.95rem;
+                font-size: 15px;
                 margin-top: 1.25rem;
                 text-align: left;
                 color: rgb(140, 140, 140);
             }
-            div {
-                width: 50%;
+            .footer-copyright-wrapper {
+                width: 42.5%;
             }
             .footer-references-container {
                 color: rgb(75, 75, 75);
-                width: 50%;
+                width: 52.5%;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row;
@@ -98,12 +98,12 @@ footer {
                     text-align: left;
                     span {
                         display: block;
-                        margin-bottom: 1.5rem;
+                        margin-bottom: 1.25rem;
                         color: rgb(160, 160, 160);
                     }
                     ul li {
                         font-size: 18px;
-                        margin: 0.75rem 0;
+                        margin: 0.7rem 0;
                         line-height: calc(1.25 * 18px);
                         cursor: pointer;
                         transition: .1s ease;
@@ -119,7 +119,7 @@ footer {
                     transition: .225s ease;
                     cursor: pointer;
                     &:hover {
-                        color: rgb(15, 15, 15);
+                        color: rgb(0, 0, 0);
                     }
                 }
             }

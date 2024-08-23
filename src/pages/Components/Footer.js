@@ -42,7 +42,7 @@ function Footer() {
 
             <div className='footer-main'>
                 <div className='footer-inner-container'>
-                    <div>
+                    <div className='footer-copyright-wrapper'>
                         <p className='footer-logo'>clinify</p>
                         <p className='footer-copyright'>
                             Clinify. All rights reserved © 2024
@@ -53,7 +53,6 @@ function Footer() {
                         <div className='references-wrapper'>
                             <span>About</span>
                             <ul>
-                                <li>Home</li>
                                 <li>How it Works</li>
                                 <li>Features</li>
                                 <li>Pricing</li>

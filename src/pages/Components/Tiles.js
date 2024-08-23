@@ -1,6 +1,5 @@
 import React from 'react';
 import { GiPadlock } from 'react-icons/gi';
-import { CiLock } from 'react-icons/ci';
 
 function Tiles() {
     return (

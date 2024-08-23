@@ -3,7 +3,7 @@ header {
     user-select: none;
     nav {
         background-color: #fff;
-        width: 60%;
+        width: 62.5%;
         padding: 0.9rem 1.5rem;
         display: flex;
         justify-content: space-between;
@@ -15,6 +15,15 @@ header {
         transform: translateX(-50%);
         border-radius: 50px;
         box-shadow: 6px 6px 24px 0px rgb(168, 255, 216);
+        background: rgba( 255, 255, 255, 0.6);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        transition: .175s ease-in-out;
+        &:hover {
+            background: rgba( 255, 255, 255, 0.85);
+            backdrop-filter: blur(12.5px);
+            -webkit-backdrop-filter: blur(12.5px);
+        }
         .header__logo {
             font-weight: 600;
             font-size: 1.6rem;
@@ -26,11 +35,11 @@ header {
                 color: #717171;
                 font-weight: 500;
                 font-size: 17px;
-                padding: 0 0.85rem;
+                padding: 0 1.2rem;
                 cursor: pointer;
-                transition: 0.05s linear;
+                transition: 0.125s ease;
                 &:hover {
-                    color: #474747;
+                    color: #2e2e2e;
                 }
             }
         }
@@ -53,9 +62,9 @@ header {
                 background-color: #000;
                 border-radius: 50px;
                 cursor: pointer;
-                transition: .125s ease-in-out;
+                transition: .14s ease-in-out;
                 &:hover {
-                    background-color: #282828;
+                    background-color: #303030;
                 }
             }
         }
