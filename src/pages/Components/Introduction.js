@@ -9,8 +9,8 @@ function Introduction() {
 
             <p className='introduction-description'>
                 Save up to 3 hours daily on patient documentation. Finish your
-                day as <br /> you leave the office - no more after-hours
-                progress notes.
+                day as you leave the office - no more after-hours progress
+                notes.
             </p>
 
             <button>
@@ -19,25 +19,33 @@ function Introduction() {
 
             <div className='doctors'>
                 <div className='doctors-thumbnails-wrapper'>
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor1.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor2.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor3.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor5.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
                 </div>
                 <p>Join 1k+ doctors today </p>
@@ -54,12 +62,48 @@ function Introduction() {
             </p>
 
             <div className='logos-container'>
-                <img className='logo-thumbnail' src='/logo1.png' alt='logo' />
-                <img className='logo-thumbnail' src='/logo2.png' alt='logo' />
-                <img className='logo-thumbnail' src='/logo3.png' alt='logo' />
-                <img className='logo-thumbnail' src='/logo4.png' alt='logo' />
-                <img className='logo-thumbnail' src='/logo6.png' alt='logo' />
-                <img className='logo-thumbnail' src='/logo5.png' alt='logo' />
+                <Image
+                    className='logo-thumbnail'
+                    src='/logo1.png'
+                    alt='logo'
+                    height={250}
+                    width={250}
+                />
+                <Image
+                    className='logo-thumbnail'
+                    src='/logo2.png'
+                    alt='logo'
+                    height={250}
+                    width={250}
+                />
+                <Image
+                    className='logo-thumbnail'
+                    src='/logo3.png'
+                    alt='logo'
+                    height={250}
+                    width={250}
+                />
+                <Image
+                    className='logo-thumbnail'
+                    src='/logo4.png'
+                    alt='logo'
+                    height={250}
+                    width={250}
+                />
+                <Image
+                    className='logo-thumbnail'
+                    src='/logo6.png'
+                    alt='logo'
+                    height={250}
+                    width={250}
+                />
+                <Image
+                    className='logo-thumbnail'
+                    src='/logo5.png'
+                    alt='logo'
+                    height={250}
+                    width={250}
+                />
             </div>
         </section>
     );

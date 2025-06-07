@@ -3,68 +3,82 @@ header {
     user-select: none;
     nav {
         background-color: #fff;
-        width: 62.5%;
-        padding: 0.9rem 1.5rem;
+        width: 55%;
+        padding: 0.75rem;
+        padding-left: 1.5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: fixed;
         z-index: 10000;
         left: 50%;
-        top: 2.5%;
+        top: 1.25rem;
         transform: translateX(-50%);
         border-radius: 50px;
-        box-shadow: 6px 6px 24px 0px rgb(168, 255, 216);
+        box-shadow: 6px 6px 24px 0px rgba(168, 255, 216, 0.5);
         background: rgba( 255, 255, 255, 0.6);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        transition: .175s ease-in-out;
+        transition: .2s ease;
         &:hover {
             background: rgba( 255, 255, 255, 0.85);
             backdrop-filter: blur(12.5px);
             -webkit-backdrop-filter: blur(12.5px);
         }
         .header__logo {
+            font-size: 1.75rem;
             font-weight: 600;
-            font-size: 1.6rem;
             letter-spacing: -0.5px;
+            width: 25%;
         }
         ul {
             display: flex;
+            align-items: center;
+            justify-items: center;
+            gap: 1.75rem;
             li {
-                color: #717171;
+                font-size: 18px;
                 font-weight: 500;
-                font-size: 17px;
-                padding: 0 1.2rem;
+                color: rgb(100, 100, 100);
+                padding: 0 0.25rem;
                 cursor: pointer;
-                transition: 0.125s ease;
+                transition: 0.3s ease;
                 &:hover {
-                    color: #2e2e2e;
+                    color: rgb(30, 30, 30);
                 }
             }
         }
         .header__buttons-wrapper {
+            width: 25%;
+            display: flex;
+            justify-content: flex-end;
             .button-login {
+                font-size: 1rem;
                 font-weight: 500;
-                font-size: 1.05rem;
                 background-color: transparent;
                 outline: none;
                 border: 1px solid transparent;
+                border-radius: 50px;
+                padding: 0.75rem 1.25rem;
+                transition: .325s ease;
                 cursor: pointer;
+                &:hover {
+                    background-color: rgb(225, 225, 225);
+                }
             }
             .button-join {
-                margin-left: 1.5rem;
-                padding: 0.4rem 0.7rem;
-                font-size: 1.05rem;
+                font-size: 1rem;
+                margin-left: 0.75rem;
+                padding: 0.75rem 1.25rem;
                 border: 1px solid transparent;
                 outline: none;
                 color: #fff;
                 background-color: #000;
                 border-radius: 50px;
                 cursor: pointer;
-                transition: .14s ease-in-out;
+                transition: .325s ease;
                 &:hover {
-                    background-color: #303030;
+                    background-color: rgb(55, 55, 55);
                 }
             }
         }

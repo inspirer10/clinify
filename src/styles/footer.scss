@@ -1,18 +1,19 @@
 footer {
     text-align: center;
-    margin: 5vh auto 0;
+    margin: 7.5vh auto 0;
     .footer-heading {
         width: 45%;
-        margin: 1.5rem auto 3.5rem;
         font-size: 4rem;
-        letter-spacing: -1px;
-        font-weight: 700;
-        line-height: calc(1.4 * 4rem);
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        line-height: 1.3;
+        margin: 1.5rem auto 3.5rem;
         color: rgb(15, 15, 15);
     }
     button {
-        padding: 1.1rem 1.55rem;
-        font-size: 17px;
+        padding: 18px 2.25rem;
+        font-size: 18px;
+        font-weight: 500;
         border: 1px solid transparent;
         outline: none;
         color: #fff;
@@ -20,16 +21,21 @@ footer {
         border-radius: 50px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         margin: 3rem auto 0;
         user-select: none;
         cursor: pointer;
-        transition: .2s ease-in-out;
+        transition: .3s ease;
         .arrow-icon {
-            transition: .2s ease-in-out;
-            margin-left: 0.75rem;
+            margin-left: 1rem;
+            transition: .3s ease;
         }
         &:hover {
-            transform: scale(1.025);
+            background-color: rgb(27, 27, 27);
+            transform: scale(1.02);
+            .arrow-icon {
+                transform: translateX(0.25rem);
+            }
         }
     }
     .doctors {
@@ -46,10 +52,10 @@ footer {
                 user-select: none;
                 z-index: 5;
                 position: relative;
-                transition: .2s ease-in-out;
-                transform-origin: right;
+                transition: .225s ease;
+                transform-origin: center;
                 &:hover {
-                    transform: scale(1.04);
+                    transform: scale(1.05);
                 }
                 &:nth-of-type(2),
                 &:nth-of-type(3),

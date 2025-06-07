@@ -1,25 +1,24 @@
 .tiles__section {
-    width: 77.5%;
+    width: 85%;
     margin: 10vh auto;
     text-align: center;
     padding: 2.5vh 0 5vh;
     .tiles_heading {
-        margin: 0 auto;
-        font-size: 4.25rem;
-        font-weight: 600;
-        line-height: calc(1.4 * 4.25rem);
+        font-size: 4.5rem;
+        font-weight: 800;
+        line-height: 1.4;
         letter-spacing: -0.5px;
+        margin: 0 auto;
         color: rgb(15, 15, 15);
     }
     .tiles_heading-description {
-        color: rgb(125, 125, 125);
-        font-size: 1.35rem;
-        font-weight: 400;
+        color: rgb(135, 135, 135);
+        font-size: 1.5rem;
+        font-weight: 500;
         margin: 0.5rem auto;
-        word-spacing: 0.25px;
     }
     .tiles__container {
-        margin-top: 10vh;
+        margin-top: 7.5vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -31,14 +30,14 @@
             align-items: center;
             flex-direction: column;
             .tile {
-                width: 95%;
+                width: 100%;
                 margin: 1rem 0;
             }
         }
         .tile {
             overflow: hidden;
             background-color: #fff;
-            width: calc(97.5% / 3);
+            width: calc(100% / 3);
             border-radius: 18px;
             height: auto;
             padding: 5vh 0;
@@ -50,37 +49,38 @@
                 align-items: center;
                 flex-direction: column;
                 h5 {
-                    font-weight: 700;
-                    text-align: center;
                     font-size: 2.5rem;
+                    font-weight: 800;
+                    text-align: center;
                     margin: 0 0 1.25rem;
                 }
                 p {
-                    font-size: 1.275rem;
+                    font-size: 1.25rem;
                     font-weight: 500;
-                    width: 90%;
-                    color: rgb(30, 30, 30);
+                    letter-spacing: -0.25px;
+                    width: 80%;
+                    color: rgb(45, 45, 45);
                     text-align: center;
                 }
             }
             h5 {
                 width: 92.5%;
-                margin: 2rem auto 0.55rem;
+                margin: 2rem auto 0.5rem;
                 text-align: left;
-                font-weight: 600;
-                font-size: 1.45rem;
-                letter-spacing: -0.25px;
+                font-weight: 700;
+                font-size: 1.5rem;
+                letter-spacing: -0.5px;
             }
             p {
                 font-size: 1.25rem;
-                text-align: left;
-                margin: 0 auto;
-                color: rgb(120, 120, 120);
+                color: rgb(125, 125, 125);
                 width: 92.5%;
+                margin: 0 auto;
+                text-align: left;
             }
             .padlock-icon {
-                font-size: 5.75rem;
-                color: #000000;
+                font-size: 6rem;
+                color: rgb(15, 15, 15);
             }
             .tile-image {
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -91,15 +91,15 @@
             }
         }
         .center-tile {
-            height: 60vh;
+            height: 65vh;
             img {
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-                height: 62.5%;
-                width: 90%;
+                height: 65%;
+                width: 92.5%;
                 object-fit: cover;
                 filter: grayscale(100%);
-                margin-top: 1.5rem;
-                border-radius: 10px;
+                margin-top: 1rem;
+                border-radius: 12px;
             }
         }
     }

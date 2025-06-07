@@ -3,37 +3,37 @@
     text-align: center;
     padding: 12.5vh 0 15vh;
     .FAQ-heading {
-        margin: 1rem 0 3.5rem;
         font-size: 3.75rem;
-        letter-spacing: -0.75px;
-        font-weight: 600;
-        line-height: calc(1.4 * 3.5rem);
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        line-height: 1.4;
         color: rgb(15, 15, 15);
+        margin: 1rem 0 3.5rem;
     }
     .faq {
-        width: 35%;
+        width: 40%;
         margin: auto;
         .faq-item {
             padding: 10px 0;
             border-bottom: 1px solid #e2e2e2;
             .faq-question {
-                cursor: pointer;
+                font-size: 18px;
+                font-weight: 600;
+                color: rgb(25, 25, 25);
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                font-size: 17px;
-                font-weight: 600;
-                color: #202020;
                 background-color: rgb(238, 238, 238);
-                padding: 10.5px;
-                border-radius: 6px;
+                padding: 10px 12px;
+                border-radius: 8px;
+                cursor: pointer;
                 transition: 0.25s ease;
                 &:hover {
                     background-color: rgb(215, 215, 215);
                 }
                 .faq-toggle {
-                    font-size: 20px;
-                    font-weight: 600;
+                    font-size: 21px;
+                    font-weight: 700;
                     transition: transform 0.3s ease;
                 }
             }
@@ -42,10 +42,10 @@
                 text-align: justify;
                 padding: 12px;
                 font-size: 17px;
-                color: #555;
-                transition: max-height 0.3s ease;
-                line-height: calc(1.4 * 17px);
+                color: rgb(95, 95, 95);
+                line-height: 1.45;
                 overflow: hidden;
+                transition: max-height 0.3s ease;
             }
             .faq-question#opened {
                 transition: none;
