@@ -2,6 +2,7 @@ import React from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
+import Image from 'next/image';
 
 function Footer() {
     return (
@@ -16,25 +17,33 @@ function Footer() {
 
             <div className='doctors'>
                 <div className='doctors-thumbnails-wrapper'>
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor3.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor2.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor1.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
-                    <img
+                    <Image
                         className='doctor-thumbnail'
                         src='/doctor6.png'
                         alt='Picture of the doctor'
+                        height={300}
+                        width={300}
                     />
                 </div>
                 <p>Join 1k+ doctors today </p>

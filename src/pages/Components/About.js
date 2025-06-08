@@ -5,7 +5,7 @@ import { MdScreenSearchDesktop, MdPersonOff } from 'react-icons/md';
 
 function About() {
     return (
-        <section className='about__section'>
+        <section className='about__section' id='features'>
             <h2 className='about_heading'>
                 Physicians dedicate 50% of their time to screens, not patients
             </h2>

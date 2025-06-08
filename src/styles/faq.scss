@@ -1,9 +1,9 @@
 .FAQ_section {
     background-color: #fff;
     text-align: center;
-    padding: 12.5vh 0 15vh;
+    padding: 15vh 0 20vh;
     .FAQ-heading {
-        font-size: 3.75rem;
+        font-size: 4rem;
         font-weight: 700;
         letter-spacing: -0.5px;
         line-height: 1.4;
@@ -14,8 +14,22 @@
         width: 40%;
         margin: auto;
         .faq-item {
+            display: grid;
+            grid-template-rows: auto 0fr;
             padding: 10px 0;
             border-bottom: 1px solid #e2e2e2;
+            margin-top: 12px;
+            gap: 12px;
+            transition: all 0.3s ease;
+            &.active {
+                grid-template-rows: auto 1fr;
+                .faq-answer {
+                    grid-template-rows: 1fr;
+                }
+                .faq-toggle {
+                    transform: rotate(135deg);
+                }
+            }
             .faq-question {
                 font-size: 18px;
                 font-weight: 600;
@@ -38,14 +52,20 @@
                 }
             }
             .faq-answer {
-                margin: 0.25rem auto;
-                text-align: justify;
-                padding: 12px;
-                font-size: 17px;
-                color: rgb(95, 95, 95);
-                line-height: 1.45;
-                overflow: hidden;
-                transition: max-height 0.3s ease;
+                display: grid;
+                grid-template-rows: 0fr;
+                transition: grid-template-rows 0.3s ease;
+                .faq-answer-inner {
+                    min-height: 0;
+                    /* Important for grid animation */
+                    overflow: hidden;
+                    margin: 0;
+                    text-align: justify;
+                    padding: 0 12px;
+                    font-size: 17px;
+                    color: rgb(95, 95, 95);
+                    line-height: 1.45;
+                }
             }
             .faq-question#opened {
                 transition: none;

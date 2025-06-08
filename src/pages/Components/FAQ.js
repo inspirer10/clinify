@@ -22,7 +22,7 @@ function FAQ() {
     ];
 
     return (
-        <section className='FAQ_section'>
+        <section className='FAQ_section' id='faq'>
             <h2 className='FAQ-heading'>Frequently Asked Questions</h2>
 
             <div className='faq'>

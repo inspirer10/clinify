@@ -15,7 +15,7 @@ header {
         top: 1.25rem;
         transform: translateX(-50%);
         border-radius: 50px;
-        box-shadow: 6px 6px 24px 0px rgba(168, 255, 216, 0.5);
+        box-shadow: 6px 6px 24px 0px rgba(168, 255, 216, 0.75);
         background: rgba( 255, 255, 255, 0.6);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -26,17 +26,22 @@ header {
             -webkit-backdrop-filter: blur(12.5px);
         }
         .header__logo {
-            font-size: 1.75rem;
-            font-weight: 600;
-            letter-spacing: -0.5px;
             width: 25%;
+            p {
+                font-size: 1.75rem;
+                font-weight: 700;
+                letter-spacing: -0.75px;
+                color: rgb(30, 30, 30);
+                cursor: pointer;
+                width: fit-content;
+            }
         }
         ul {
             display: flex;
             align-items: center;
             justify-items: center;
             gap: 1.75rem;
-            li {
+            a {
                 font-size: 18px;
                 font-weight: 500;
                 color: rgb(100, 100, 100);

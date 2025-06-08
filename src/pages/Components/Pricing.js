@@ -60,7 +60,7 @@ function Pricing() {
     );
 
     return (
-        <section className='pricing__section'>
+        <section className='pricing__section' id='pricing'>
             <h2 className='pricing-heading'>
                 Flexible pricing for every clinic
             </h2>
@@ -80,6 +80,7 @@ function Pricing() {
                     <button>Get Started for Free</button>
                     {list}
                 </div>
+
                 <div className='subscription-box'>
                     <p className='subsc-type'>Standard</p>
                     <p className='subsc-price'>
@@ -91,6 +92,7 @@ function Pricing() {
                     <button className='highlighted-button'>Get Started</button>
                     {list}
                 </div>
+
                 <div className='subscription-box'>
                     <p className='subsc-type'>Advanced</p>
                     <p className='subsc-price'>
@@ -102,6 +104,7 @@ function Pricing() {
                     <button>Get Started</button>
                     {extendedList}
                 </div>
+
                 <div className='subscription-box'>
                     <p className='subsc-type'>Enterprise</p>
                     <p className='subsc-price'>Let's Talk!</p>

@@ -3,7 +3,7 @@ import { GiPadlock } from 'react-icons/gi';
 
 function Tiles() {
     return (
-        <section className='tiles__section'>
+        <section className='tiles__section' id='how'>
             <h2 className='tiles_heading'>Save Time, Enhance Care</h2>
             <p className='tiles_heading-description'>
                 With Clinify, spend more time with patients and less on
